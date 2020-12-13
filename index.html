@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impresora Matricial</title>
+    <link rel="shortcut icon" href="imagenes/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos/matricial.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascripts/matricial.js"></script>
+    
+</head>
+
+<body>
+
+
+
+
+
+    <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#hero" class="active">Inicio</a>
+                <a href="#intro">Introducción</a>
+                <a href="#tipos">Tipos</a>
+                <a href="#funcionamiento">Funcionamiento</a>
+                <a href="#instalacion">Instalación</a>
+                <a href="#marcas">Marcas</a>
+                <a href="#donde">Dónde?</a>
+                <a href="#curiosidades">Curiosidades</a>
+                <a href="#contacto">Contacto</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </nav>
+
+
+
+
+
+        <!--Hero Section basica con una imagen de fondo y rotulo-->
+        <section id="hero">
+
+            <h2>Impresora Matricial <i class="fa fa-print" aria-hidden="true"></i></h2>
+
+        </section>
+
+
+
+
+
+        <!--MODELO 2 FOTO Y TEXTO-->
+        <section id="intro">
+
+            <img src="imagenes/imp.png" alt="impresora matricial" id="impre">
+            <p>La primera impresora matricial fue inventada por IBM en el año 1957 y es un tipo de impresora que tiene a la izquierda la cabeza que utiliza para imprimir y se desplaza hacia la derecha mientras va imprimiendo en la hoja de papel, a través de impactos sobre una cinta sobre esa hoja de papel.</p>
+            <p>En realidad el termino matricial no es apropiado para darle nombre a esta impresora en concreto, porque practicamente casi todas las impresoras,ya sean de inyección,laser... producen matrices de puntos, pero esa palabra se ha reservado para identificar a las impresoras matriciales por impacto.</p>
+        </section>
+
+
+
+
+
+    <section id="tipos" class="grid3col">
+        <div class="col3">
+            <img src="imagenes/1pin.jpeg" alt="impresora de 1 pin">
+            <p class="pines">1 PIN</p>
+            <p>Suelen ser calculadoras o impresoras más pequeñas, usadas para equipos sencillos de 8 bits..</p>
+        </div>
+        <div class="col3">
+            <img src="imagenes/9pin.jpeg" alt="impresora 9 pines">
+            <p class="pines">9 PINES</p>
+            <p>Estas son las más utilizadas. Podemos encontrar muchos modelos diferentes con estas características.</p>
+        </div>
+        <div class="col3">
+            <img src="imagenes/18pin.jpeg" alt="impresora 18 pines">
+            <p class="pines">18 PINES</p>
+            <p>Estas impresoras son muy poco frecuentes.</p>
+        </div>
+        <div class="col3">
+            <img src="imagenes/24pin.jpeg" alt="impresora 24 pines">
+            <p class="pines">24 PINES</p>
+            <p>Se trata de las impresoras de gama alta, también bastante utilizadas junto con las de 9 pines. Por su calidad son perfectas para tiendas o consultas médicas.</p>
+        </div>
+        <div class="col3">
+            <img src="imagenes/27pin.jpeg" alt="impresora 27 pines">
+            <p class="pines">27 PINES</p>
+            <p>Hablamos de la impresora Apple ImageWriter LQ, que es la impresora matricial con más resolución del mercado. Aunque ya es bastante antigua.</p>
+        </div>
+        <div class="col3">
+            <img src="imagenes/36pin.jpeg" alt="impresora 36 pines">
+            <p class="pines">36 PINES</p>
+            <p>Esta impresora tiene 4 filas de 9 pines, es la mas rapida del mercado, y solo la podemos encontrar de la marca Epson.</p>
+        </div>
+    </section>
+
+
+
+
+
+        <!--Espacio de seccion dividido en dos columnas con GRID-->
+        <section id="funcionamiento" class="grid2col">
+            <div class="col2" id="izquierda">
+                <img src="imagenes/puntos.jpg" alt="puntos">
+                <p>Hace que la imagen de cada letra a través de pequeños pasadores como de alambre presionando en una cinta que golpea contra el papel transfiera la tinta al punto de impacto. El mecanismo es similar al de una máquina de escribir antigua, que tenía martillos que golpeaban la cinta. Los pines de la impresora de matriz de puntos puede ser concebido como muchos pequeños martillos sobre un cabezal.</p>
+            </div>
+            <div class="col2" id="derecha">
+                <div class="iframe"><!--NECESARIO PARA RESPONSIVIDAD-->
+                    <iframe class="iframecontain"src="https://www.youtube.com/embed/GD3DxGOdXgc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <!--Espacio de seccion dividido en dos columnas con GRID-->
+        <section id="instalacion" class="grid2col">
+            <div class="col2" id="izquierda">
+                <div class="iframe"><!--NECESARIO PARA RESPONSIVIDAD-->
+                    <iframe class="iframecontain"src="https://www.youtube.com/embed/pu2qRyLD4oQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></src=></iframe>
+                </div> 
+            </div>
+            <div class="col2" id="derecha">
+                <p>Lo primero que hariamos seria enchufar la impresora a una toma de corriente y al puerto LPT1, seguidamente con nuestro Pc encendido entramos en el panel de control, y en hardware, elegimos agregar impresora, y nos saldra una lista con muchisimas marcas y modelos, elegimos la nuestra, y si no estuviera en la lista tenemos la opción de usar un disco de instalación que deberia venir al comprar la impresora, y sino también tenemos la opción de usar el windows update para buscar sus drivers, o podemos ir a la pagina web del fabricante y descargar alli los drivers.</p> 
+            </div>
+
+        </section>
+        
+
+
+
+
+        <section id="marcas" class="grid2col">
+                <div class="col2" id="izquierda">
+                    <h1><u>MARCAS</u></h1>
+                    <ul>
+                      <li><u>EPSON</u></li>
+                      <li><u>OKI</u></li>
+                      <li><u>LEXMARK</u></li>
+                      <li><u>FAIRBANKS</u></li>
+                      <li><u>CARDINAL</u></li>
+                      <li><u>PRINTRONIX</u></li>
+                      <li><u>SENSOCAR</u></li>
+                      <li><u>PRECIA MOLEN</u></li>
+                      <li><u>TALLY</u></li>
+                      <li><u>DFX</u></li>
+                    </ul>
+                </div>
+                <div class="col2" id="derecha">
+                    <img src="imagenes/marcas.png" alt="marcas de impresora">
+                </div>
+        </section>
+        
+
+
+
+
+        <section id="donde" class="grid2col">
+            <div class="col3">
+                <img src="imagenes/donde.png" alt="donde comprar?">
+                <p class="pines">¿DONDE?</p>
+                <p>Cuuantas veces te habras preguntado,¿Dónde consigo una impresora matricial?.Hay un gran abanico de posibilidades para conseguir una impresora matricial</p>
+            </div>
+            <div class="col3">
+                <img src="imagenes/especialistas.jpg" alt="personas especializadas">
+                <p class="pines">MARCAS ESPECIALIZADAS</p>
+                <p>Tenemos la posibilidad de adquirirlas en páginas web especializadas en ventas de perifericos o en las paginas web de los fabricantes especializados.</p>
+            </div>
+            <div class="col3">
+                <img src="imagenes/segundamano.jpg" alt="mercado segunda mano">
+                <p class="pines">MERCADO SEGUNDA MANO</p>
+                <p>Las páginas o aplicaciones de compra y venta de segunda mano, en las cuales podemos encontrar algunas de ellas muy vintage, que ya solo las vemos en películas antiguas.</p>
+            </div>
+            <div class="col3">
+                <img src="imagenes/precios.jpg" alt="precios">
+                <p class="pines">¿CUANTO?</p>
+                <p>Si buscamos en páginas de segunda mano podemos encontrar algunas calculadoras matriciales de 1 pin con su caja e instrucciones por 20 o 30 euros hasta algunas de 9 pines que rondan los 100 euros.Si ya nos vamos a las paginas web de especialistas en periféricos y fabricantes los precios rondan dependiendo de la marca y el modelo entre 200 euros y hasta mas de 4000 euros.</p>
+            </div>
+        </section>
+    
+
+
+
+
+        <section id="curiosidades" class="grid2col">
+            <div class="col2" id="izquierda">
+                <img src="imagenes/hibrida.png" alt="impresora hibrida">
+                <p>Esta es una especie hibrida de impresora matricial y de inyección de tinta.</p>
+            </div>
+            <div class="col2" id="derecha">
+                <p>En este video se puede ver como han programado la impresión en una impresora matricial para que suene la canción Eye of the tiger.</p>
+                <div class="iframe"><!--NECESARIO PARA RESPONSIVIDAD-->
+                    <iframe class="iframecontain"< src="https://www.youtube.com/embed/GdaeoQ-YqLw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                 
+            </div>
+        </section>
+
+
+
+
+
+        <section id="contacto" class="grid3col">
+            <!-- Contacto tradicional, dirección, teléfono, correo -->
+            <div class="col3">
+               <h3>Contáctanos:</h3>
+               <p>C/ Frederik Termann nº 3<br>
+                  Incubadora de Empresas<br>
+                  PTA - Málaga</p>
+               <p>Teléfono: 666 99 66 99</p>
+               <p>Email: imprematri@gmail.com</p>
+            </div>
+            <!-- enlaces de barra de navegación repetidos -->
+            <div class="col3">
+             <h3>Contenido:</h3>
+             <a href="#hero" class="active">Inicio</a><br>
+             <a href="#intro">Introducción</a><br>
+             <a href="#tipos">Tipos</a><br>
+             <a href="#funcionamiento">Funcionamiento</a><br>
+             <a href="#instalacion">Instalación</a><br>
+             <a href="#marcas">Marcas</a><br>
+             <a href="#donde">Donde?</a><br>
+             <a href="#curiosidades">Curiosidades</a><br>
+             <a href="#contacto">Contacto</a>
+            </div>
+            <!-- redes sociales -->
+            <div class="col3">
+             <h3>Redes Sociales:</h3>
+             <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-twitter"></a>
+             <a href="#" class="fa fa-google"></a>
+             <a href="#" class="fa fa-linkedin"></a>
+             <a href="#" class="fa fa-youtube"></a>
+             <a href="#" class="fa fa-instagram"></a>
+            </div>
+         </section>
+
+
+
+
+
+         <footer>
+            <p>Página creada por: Adrián Egea Hermoso<br>
+            NOVIEMBRE / DICIEMBRE 2020</p>
+        </footer>
+
+
+
+
+
+    </div>
+</body>
+</html>
